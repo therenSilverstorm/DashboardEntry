@@ -1,7 +1,7 @@
 # DashboardEntry
 Entry point for Dashboard application with Websocket/RabbitMQ/Docker-compose
 
-After connection establishes via WebSocket, produces message with Rabbitmq to consumer (DashboardNotification service);
+After connection establishes via WebSocket, produces connection information with Rabbitmq to consumer (DashboardNotification service);
 
 
 
